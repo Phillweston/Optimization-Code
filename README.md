@@ -14,7 +14,7 @@ Youtube 最优化课程配套代码
 - [x] 1. Concept of Optimization
 - [x] 2. Line Search Methods
 - [x] 3. Gradient Methods
-- [x] 4. Gauss-Newton
+- [x] 4. Qausi-Newton
 - [x] 5. Constrained Optimization
 - [x] 6. Linear Programming
 - [ ] 7. ???

@@ -39,6 +39,7 @@ def dfp( func, initial_x,initial_inv_h, eps=1e-5, maximum_iterations=65536, line
         f_k, g_k  = func( x_k , 1 )
         f_k = np.double( f_k )
         g_k = np.asarray( g_k )
+        # 矩阵乘法需要用dot
         p_k = - 1.0 * np.asarray(H_k).dot(g_k)
         
         if linesearch is None:
